@@ -1,0 +1,202 @@
+{
+  "app-version" : {
+    "code" : 4,
+    "info" : [ {
+      "code" : 1,
+      "coupon-update" : 1,
+      "describe" : [ {
+        "act" : "+",
+        "str" : "beta版釋出"
+      } ]
+    }, {
+      "code" : 2,
+      "describe" : [ {
+        "act" : "+",
+        "str" : "新增清單倒數計時"
+      }, {
+        "act" : "-",
+        "str" : "修正清單顯示錯誤"
+      } ]
+    }, {
+      "code" : 3,
+      "coupon-update" : 2,
+      "describe" : [ {
+        "act" : "-",
+        "str" : "修正虛擬導航欄顯示問題"
+      }, {
+        "act" : "-",
+        "str" : "修正清單滑動不流暢問題"
+      } ]
+    }, {
+      "code" : 4,
+      "describe" : [ {
+        "act" : "+",
+        "str" : "加入線上更新優惠券資料功能"
+      }, {
+        "act" : "+",
+        "str" : "顯示更新內容"
+      } ]
+    } ],
+    "list" : [ {
+      "code" : 1,
+      "name" : "0.1"
+    }, {
+      "code" : 2,
+      "name" : "0.5"
+    }, {
+      "code" : 3,
+      "name" : "1.0"
+    }, {
+      "code" : 4,
+      "name" : "1.1"
+    } ]
+  },
+  "coupon-info" : {
+    "coupon-version" : {
+      "code" : 4
+    },
+    "details" : [ {
+      "img" : "coupon_Big_Mac_bogof",
+      "name" : "大麥克買一送一",
+      "coupon-id" : 10
+    }, {
+      "img" : "coupon_McFlurry_go_1",
+      "name" : "OREO冰炫風加1元多1杯",
+      "coupon-id" : 11
+    }, {
+      "img" : "coupon_Spicy_ChickenFilet_Burger_go_10",
+      "name" : "勁辣鷄腿堡加10元多1份",
+      "coupon-id" : 12
+    }, {
+      "img" : "coupon_FrenchFriesL_and_CornSoupS_65",
+      "name" : "大薯+小杯玉米濃湯 65元",
+      "coupon-id" : 13
+    }, {
+      "img" : "coupon_Ham_Patty_Burger_go_10",
+      "name" : "豬肉蛋堡加10元多1份",
+      "coupon-id" : 14
+    }, {
+      "img" : "coupon_Chicken_McNuggets_4pcs_bogof",
+      "name" : "四塊鷄塊買一送一",
+      "coupon-id" : 0
+    }, {
+      "img" : "coupon_chicken_fillet_bogof",
+      "name" : "無骨鷄腿排買一送一",
+      "coupon-id" : 5
+    }, {
+      "img" : "coupon_Spicy_ChickenFilet_Burger_bogof",
+      "name" : "勁辣鷄腿堡買一送一",
+      "coupon-id" : 1
+    }, {
+      "img" : "coupon_Latte_bogof",
+      "name" : "拿鐵買一送一",
+      "coupon-id" : 6
+    }, {
+      "img" : "coupon_McFlurry_bogof",
+      "name" : "冰炫風買一送一",
+      "coupon-id" : 7
+    }, {
+      "img" : "coupon_Beverage_Syrup_CocaCola_L_bogof",
+      "name" : "大杯可樂買一送一",
+      "coupon-id" : 8
+    }, {
+      "img" : "coupon_Sundae_bog",
+      "name" : "超值全餐送聖代",
+      "coupon-id" : 2
+    }, {
+      "img" : "coupon_IceCream_Cone_bogo",
+      "name" : "超值全餐送蛋捲冰淇淋",
+      "coupon-id" : 9
+    }, {
+      "img" : "coupon_ApplePie_bog",
+      "name" : "超值全餐送蘋果派",
+      "coupon-id" : 3
+    }, {
+      "img" : "coupon_Spicy_Chicken_McWing_bog",
+      "name" : "超值全餐送勁辣香鷄翅",
+      "coupon-id" : 4
+    } ],
+    "update-info" : [ {
+      "code" : 1,
+      "info" : [ {
+        "act" : "+",
+        "str" : "四塊鷄塊買一送一"
+      }, {
+        "act" : "+",
+        "str" : "勁辣鷄腿堡買一送一"
+      }, {
+        "act" : "+",
+        "str" : "超值全餐送聖代"
+      }, {
+        "act" : "+",
+        "str" : "超值全餐送蘋果派"
+      }, {
+        "act" : "+",
+        "str" : "超值全餐送勁辣香鷄翅"
+      }, {
+        "act" : "+",
+        "str" : "無骨鷄腿排買一送一"
+      }, {
+        "act" : "+",
+        "str" : "拿鐵買一送一"
+      } ]
+    }, {
+      "code" : 2,
+      "info" : [ {
+        "act" : "+",
+        "str" : "冰炫風買一送一"
+      }, {
+        "act" : "+",
+        "str" : "大杯可樂買一送一"
+      }, {
+        "act" : "+",
+        "str" : "超值全餐送蛋捲冰淇淋"
+      } ]
+    }, {
+      "code" : 3,
+      "info" : [ {
+        "act" : "-",
+        "str" : "拿鐵買一送一"
+      }, {
+        "act" : "-",
+        "str" : "大杯可樂買一送一"
+      }, {
+        "act" : "-",
+        "str" : "超值全餐送聖代"
+      } ]
+    }, {
+      "code" : 4,
+      "info" : [ {
+        "act" : "+",
+        "str" : "大麥克買一送一"
+      }, {
+        "act" : "+",
+        "str" : "OREO冰炫風加1元多1杯"
+      }, {
+        "act" : "+",
+        "str" : "勁辣鷄腿堡加10元多1份"
+      }, {
+        "act" : "+",
+        "str" : "大薯+小杯玉米濃湯 65元"
+      }, {
+        "act" : "+",
+        "str" : "豬肉蛋堡加10元多1份"
+      }, {
+        "act" : "-",
+        "str" : "四塊鷄塊買一送一"
+      }, {
+        "act" : "-",
+        "str" : "勁辣鷄腿堡買一送一"
+      }, {
+        "act" : "-",
+        "str" : "無骨鷄腿排買一送一"
+      }, {
+        "act" : "-",
+        "str" : "冰炫風買一送一"
+      }, {
+        "act" : "-",
+        "str" : "超值全餐送蛋捲冰淇淋"
+      } ]
+    } ]
+  }
+}

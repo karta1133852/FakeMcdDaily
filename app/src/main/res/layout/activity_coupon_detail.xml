@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:theme="@style/AppTheme"
+  tools:context=".Activity.CouponDetailActivity">
+  
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent" >
+    
+    <ImageView
+      android:id="@+id/cover"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentBottom="true"
+      android:scaleType="fitEnd" />
+    
+    <!--centerCrop
+      android:layout_alignTop="@id/toolbar2"
+      android:layout_above="@id/tabLayout"
+       android:layout_below="@id/toolbar"-->
+    
+    <Button
+      android:id="@+id/btnRedeem"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/redeem_button_height"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:text="兌換優惠"
+      android:textSize="@dimen/large_text"
+      android:theme="@style/MainYellowBtn"
+      android:visibility="visible" />
+    
+    <RelativeLayout
+      android:id="@+id/timer_layout"
+      style="@style/CountdownTimerTextView"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:visibility="gone">
+      
+      <TextView
+        android:id="@+id/countdown_timer"
+        style="@style/ChWhiteText.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/img_coupon_clock_n"
+        android:drawablePadding="@dimen/padding_8" />
+    </RelativeLayout>
+    
+    <View
+      android:id="@+id/view"
+      android:layout_width="fill_parent"
+      android:layout_height="@dimen/padding_4"
+      android:background="@drawable/bg_shadow" /><!--android:layout_below="@id/toolbar_layout"-->
+    <ImageButton
+      android:id="@+id/btnClose"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_below="@id/view"
+      android:background="@color/colorTransparent"
+      android:src="@mipmap/btn_coupon_delete_n"
+      android:padding="@dimen/padding_8"
+      android:scaleType="fitCenter"
+      android:visibility="visible" /><!--android:src="@mipmap/btn_coupon_delete_n"-->
+  </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

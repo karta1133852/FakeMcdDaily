@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#DE1304</color>
+  <color name="colorPrimaryDark">#d60400</color>
+  <color name="colorAccent">#656565</color>
+  <color name="colorWhite">#FFFFFF</color>
+  <color name="colorBlack">#000000</color>
+  <color name="colorAppBg">#D8D8D8</color>
+  <color name="colorSettingsBg">#f6f6f6</color>
+  <color name="colorTransparent">#00000000</color>
+  <color name="colorUseCard">#fff5aa0a</color>
+  
+  <color name="ok_blue">#ff2851a7</color>
+  <color name="dark_gray">#ff656565</color>
+  <color name="white_mask">#62ffffff</color>
+  <color name="main_yellow">#fff5aa0a</color>
+</resources>

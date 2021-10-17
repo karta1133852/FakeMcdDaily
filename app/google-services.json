@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461553768873",
+    "firebase_url": "https://fakemcddaily.firebaseio.com",
+    "project_id": "fakemcddaily",
+    "storage_bucket": "fakemcddaily.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461553768873:android:3086a63c1a76bfba",
+        "android_client_info": {
+          "package_name": "com.shokaku.hayate.fakemcddaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461553768873-via94dctql876d2e9nbe870qi5f07rvd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shokaku.hayate.fakemcddaily",
+            "certificate_hash": "eceaa1b42124e2076934c97d7714227f6f5a505f"
+          }
+        },
+        {
+          "client_id": "461553768873-rq1h569g29cgkae3s7eem4m63co95grn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6x0Jkn2ldavDgrGW0fn8frE7R0_Fypcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461553768873-rq1h569g29cgkae3s7eem4m63co95grn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

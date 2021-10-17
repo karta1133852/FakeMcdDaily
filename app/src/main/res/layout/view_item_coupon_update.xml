@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@drawable/bg_update_list_item"
+    android:orientation="vertical"
+    android:padding="5dp">
+    
+    <TextView
+      android:id="@+id/txtCouponVersion"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="v2"
+      android:textColor="@color/colorBlack"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+    
+    <LinearLayout
+      android:id="@+id/lay_add"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/update_add_tilte"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+      
+      <TextView
+        android:id="@+id/txtAddList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+      android:id="@+id/lay_del"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/update_del_tilte"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+      
+      <TextView
+        android:id="@+id/txtDeleteList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:textSize="12sp" />
+    </LinearLayout>
+    
+  </LinearLayout>
+  
+</LinearLayout>

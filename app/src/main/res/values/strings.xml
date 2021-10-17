@@ -1,0 +1,45 @@
+<resources>
+  <string name="app_name">麥當勞報報</string>
+  
+  <string name="navigation_drawer_open">開啟側邊選單</string>
+  <string name="navigation_drawer_close">關閉側邊選單</string>
+  
+  <!--toolbar相關-->
+  <string name="toolbar_title">優惠券</string>
+  <string name="toolbar_usage">使用說明</string>
+  <string name="toolbar_search">搜尋附近餐廳</string>
+  
+  <!-- 選單文字-->
+  <string name="nav_coupon">驚喜收藏</string>
+  <string name="nav_check_update">更新</string>
+  <string name="nav_settings">設定</string>
+  
+  <!--MainActivity-->
+  <string name="coupondetail_b_countdown">優惠倒數 %s</string>
+  <string name="expired_time_status">期限 : %d 年 %d 月 %d 日 尚餘 : %d 天 %d 小時</string>
+  <string name="tab_coupon">優惠券</string>
+  <string name="tab_sticker">歡樂貼</string>
+  <string name="tab_vip">獨享券</string>
+  
+  <string name="yee">兌換優惠</string>
+  
+  <!--UpdateDetailsActivity-->
+  <string name="update_coupon">更新優惠券</string>
+  
+  <!--UpdateProgressDialog-->
+  <string name="updating_title">更新資料</string>
+  
+  <!--view_item_coupon_update.xml-->
+  <string name="update_add_tilte">新增：</string>
+  <string name="update_del_tilte">移除：</string>
+  
+  <!--程式顯示文字-->
+  <string name="updating">下載更新資料...</string>
+  <string name="deleting">移除棄用資料...</string>
+  <string name="update_complete">優惠券資訊更新完成！</string>
+  <string name="tip">提示</string>
+  <string name="already_latest">已經是最新版本！</string>
+  <string name="close_history">關閉更新畫面</string>
+  
+
+</resources>

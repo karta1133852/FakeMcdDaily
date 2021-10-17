@@ -1,0 +1,21 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="nav_header_vertical_spacing">8dp</dimen>
+  <dimen name="nav_header_height">176dp</dimen>
+  <dimen name="icon_size">35dp</dimen>
+  
+  <dimen name="padding_4">4.0dip</dimen>
+  <dimen name="padding_8">8.0dip</dimen>
+  <dimen name="padding_16">16.0dip</dimen>
+  <dimen name="large_text">24.0sp</dimen>
+  <dimen name="primary_text">16.0sp</dimen>
+  <dimen name="card_radius">2.0dip</dimen>
+  <dimen name="redeem_button_height">72.0dip</dimen>
+  <dimen name="countdown_timer_height">96.0dip</dimen>
+  
+  <dimen name="dialog_padding">20dp</dimen>
+  <dimen name="update_progress_width">260dp</dimen>
+  
+</resources>
